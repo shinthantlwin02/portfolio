@@ -1,54 +1,56 @@
-import React from "react";
-import "./Contact.css";
-import Button from "./Button";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import {IoMdMail} from 'react-icons/io'
-import {BsTelephoneFill} from 'react-icons/bs'
+import React from 'react';
+import './Contact.css';
+import Button from './Button';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { IoMdMail } from 'react-icons/io';
+import { BsTelephoneFill } from 'react-icons/bs';
 
 const Contact = () => {
   Aos.init();
   return (
     <>
       <div>
-        <div id="contact" className=" max-w-[1215px] px-5 mx-auto">
+        <div id='contact' className=' max-w-[1215px] px-5 mx-auto'>
           {/* contact wrapper  */}
-          <div className=" grid lg:grid-cols-5 gap-y-10 sm:gap-20">
+          <div className='flex items-center gap-y-10 sm:gap-20'>
             {/* left  */}
-            <div className="lg:col-span-2 text-base_sm md:text-base text-gray-500 dark:text-gray-300 font-[500] space-y-10">
-              <h1 className=" text-title_sm md:text-title font-[700] text-black dark:text-white">
+            <div className='lg:col-span-2 text-base_sm md:text-base text-gray-500 dark:text-gray-300 font-[500] space-y-10 w-[70%]'>
+              <h1 className=' text-title_sm md:text-title font-[700] text-black dark:text-white'>
                 Get in touch
               </h1>
               <p
-                className=""
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-once="true"
+                className=''
+                data-aos='fade-up'
+                data-aos-duration='1000'
+                data-aos-once='true'
               >
                 Have a project in mind? Looking to partner or work together?
                 Reach out through the form and I'll get back to you in the next
                 48 hours.
               </p>
               <div
-                className=" font-[700] space-y-5"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-once="true"
+                className=' font-[700] space-y-5'
+                data-aos='fade-up'
+                data-aos-duration='1000'
+                data-aos-once='true'
               >
-                <div className=" flex items-center gap-2">
-                  <IoMdMail className=" text-[25px]"/>
-                  <div class="">shinshinshinstl@gmail.com</div>
+                <div className=' flex items-center gap-2'>
+                  <IoMdMail className=' text-[25px]' />
+                  <div class=''>shinshinshinstl@gmail.com</div>
                 </div>
-                <div className=" flex items-center gap-2">
+                <div className=' flex items-center gap-2'>
                   <BsTelephoneFill />
-                  <div class="">09-793972936</div>
+                  <div class=''>09-960691175</div>
                 </div>
               </div>
             </div>
 
             {/* right  */}
-            <div className=" lg:col-span-3 dark:text-white">
-              {/* form wrapper  */}
+            <div>
+              <img src='/images/contact.svg' />
+            </div>
+            {/* <div className=" lg:col-span-3 dark:text-white">
               <div
                 className=" space-y-8"
                 data-aos="fade-up"
@@ -56,7 +58,6 @@ const Contact = () => {
                 data-aos-duration="1200"
                 data-aos-once="true"
               >
-                {/* name wrapper  */}
                 <div className=" grid md:grid-cols-2 gap-10">
                   <div className=" flex flex-col gap-3">
                     <label htmlFor="first" className=" font-[700]">
@@ -81,7 +82,6 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                {/* email  */}
                 <div className=" flex flex-col gap-3">
                   <label htmlFor="email" className=" font-[700]">
                     Your Email
@@ -99,7 +99,6 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                {/* budget  */}
                 <div class="flex flex-col gap-3">
                   <label htmlFor="Budget-2" class="font-[700]">
                     Your Budget
@@ -123,7 +122,6 @@ const Contact = () => {
                   </div>
                 </div>
 
-                {/* Detail  */}
                 <div className=" flex flex-col gap-3">
                   <label htmlFor="first" className=" font-[700]">
                     Tell me a bit more what you are looking for?
@@ -140,7 +138,7 @@ const Contact = () => {
                   <Button text="Submit Now!" />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

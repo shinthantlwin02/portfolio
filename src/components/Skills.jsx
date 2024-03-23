@@ -9,7 +9,8 @@ const Skills = () => {
     {id: 1,label: "html", number: 90, duration: 1},
     {id: 2,label: "css", number: 65, duration: 1},
     {id: 3,label: "Javascript", number: 70, duration: 1},
-    {id: 4,label: "React", number: 80, duration: 1},
+    {id: 4,label: "React", number: 90, duration: 1},
+    {id: 4,label: "Next Js", number: 80, duration: 1},
   ]
 
   const professionalSkills = [

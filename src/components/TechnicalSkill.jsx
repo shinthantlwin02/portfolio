@@ -29,7 +29,7 @@ const TechnicalSkill = ({ data }) => {
     }
   }, [number, duration, inView]);
   return (
-    <div ref={ref} className=' mb-8'>
+    <div ref={ref} className=' mb-4'>
         <div className=' flex items-center justify-between mb-3 text-gray-500 dark:text-gray-300 font-[500]'>
             <div>{label}</div>
             <div>{count}%</div>

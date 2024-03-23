@@ -5,17 +5,17 @@ import dashboard from "../../assets/about/dashboard.jpg"
 export const projects = [
     {
         id: 1,
-        image: contact,
-        subTitle: "Web Application",
-        title: "Google Contact Clone",
-        link: "https://contactdashboard.vercel.app/"
-    },
-    {
-        id: 2,
         image: hotale,
         subTitle: "Web Design",
         title: "Hotale Hotal Website",
         link: "https://hotale.vercel.app/"
+    },
+    {
+        id: 2,
+        image: contact,
+        subTitle: "Web Application",
+        title: "Google Contact Clone",
+        link: "https://contactdashboard.vercel.app/"
     },
     {
         id: 3,

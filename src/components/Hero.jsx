@@ -10,10 +10,10 @@ const Hero = () => {
 
   return (
 
-    <div id="home" className="max-w-[1215px] pt-[100px] h-auto lg:h-screen 2xl:h-auto mx-auto mt-5">
+    <div id="home" className="max-w-[1215px] pt-[100px] h-auto lg:h-screen 2xl:h-auto mx-auto mt-10">
 
       <div className="flex flex-wrap-reverse px-5 justify-between items-center">
-        <div className="w-full lg:px-0 mx-auto lg:w-[550px] xl:w-[650px] mb-[100px] lg:mb-0">
+        <div className="w-full lg:px-0 mx-auto lg:min-w-[700px] xl:w-[650px] mb-[100px] lg:mb-0">
           <h1
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -22,10 +22,11 @@ const Hero = () => {
             className="text-title_sm md:text-hero_title font-[700] tracking-tighter mb-8 "
           >
             <span className="text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500">
-            I create products
+            Pixels to Perfection
             </span>{" "}
             <br />
-            that delight and inspire people.
+            <p className="text-hero_title_sm">A Portfolio of Digital Artistry</p>
+            
           </h1>
           <p
             data-aos="fade-up"
@@ -34,7 +35,7 @@ const Hero = () => {
             data-aos-delay="200"
             className="max-w-[600px] text-base_sm md:text-base font-[500] mb-10 dark:text-gray-300 text-gray-500 tracking-tight"
           >
-            Hello, I'm a frontend developer who turns designs into interactive and captivating websites. I bring creativity and functionality together to deliver exceptional digital experiences.
+            I'm Shin Thant Lwin, an experienced frontend developer with a focus on React.js and Next.js. I bring creativity and functionality together to deliver exceptional digital experiences.
           </p>
           <div
             data-aos="fade-up"
